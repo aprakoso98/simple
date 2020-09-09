@@ -1,0 +1,1 @@
+SELECT * FROM pesanan LEFT JOIN tipe_pesanan ON pesanan.id_tipe_pesanan = tipe_pesanan.id_tipe_pesanan LEFT JOIN tipe_ac ON pesanan.id_tipe_ac = tipe_ac.id_tipe_ac LEFT JOIN customer ON pesanan.id_customer = customer.id_customer WHERE pesanan.id_customer=1

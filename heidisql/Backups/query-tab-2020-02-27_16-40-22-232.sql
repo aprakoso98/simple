@@ -1,0 +1,1 @@
+SELECT * FROM tb_news LIMIT 0,10;

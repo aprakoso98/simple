@@ -1,0 +1,1 @@
+UPDATE wp_posts SET pembuat='Kadetech'
